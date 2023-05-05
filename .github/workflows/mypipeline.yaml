@@ -2,7 +2,7 @@ name: Deploying Go Lang Application
 on:
     push:
       branches:
-        - 'release/v*.*'
+        - "release/v*.*"
 
 jobs:
   build_go_lang:
