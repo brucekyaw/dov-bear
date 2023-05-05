@@ -42,7 +42,7 @@ jobs:
             },
             {
               "type": "mrkdwn",
-              "text": "*Email*: brucekyaw98@gmail.com"
+              "text": "*Email*\n: brucekyaw98@gmail.com"
             }
           ]
         },
@@ -51,11 +51,11 @@ jobs:
           "fields": [
             {
               "type": "mrkdwn",
-              "text": "*Metriculation*: A0269547L"
+              "text": "*Metriculation*\n: A0269547L"
             },
             {
               "type": "mrkdwn",
-              "text": "*Repository*: ${{variables.VARIABLE_GITHUB_REPOSITORY}}"
+              "text": "*Repository*\n: ${{ github.event.repository.html_url }}"
             }
           ]
         },
