@@ -1,4 +1,4 @@
-name: Deploying Go Lang Application
+name: Deploying GoLang Application
 on:
     push:
       branches: ['release/v*.*','!release/v*.*.*']
