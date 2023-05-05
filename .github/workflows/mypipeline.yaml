@@ -42,7 +42,7 @@ jobs:
             },
             {
               "type": "mrkdwn",
-              "text": "*Email*\n: brucekyaw98@gmail.com"
+              "text": "*Email:*\n brucekyaw98@gmail.com"
             }
           ]
         },
@@ -51,11 +51,11 @@ jobs:
           "fields": [
             {
               "type": "mrkdwn",
-              "text": "*Metriculation*\n: A0269547L"
+              "text": "*Matriculation:*\n A0269547L"
             },
             {
               "type": "mrkdwn",
-              "text": "*Repository*\n: ${{ github.event.repository.html_url }}"
+              "text": "*Repository:*\n ${{ github.event.repository.html_url }}"
             }
           ]
         },
@@ -71,7 +71,8 @@ jobs:
               "type": "plain_text",
               "text": "Go",
               "emoji": true
-            }
+            },
+            "url" : "https://${{ secrets.SECRET_DOMAIN }}.up.railway.app"
           }
         }
         ]
